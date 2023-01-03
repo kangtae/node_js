@@ -35,7 +35,7 @@ http.createServer(async (req, res) => {
         });
         // 요청의 body를 다 받은 후 실행됨
         return req.on('end', () => {
-          console.log('POST 본문(Body):', body);
+          console.log('POST 본문(Body)11:', body);
           const { name } = JSON.parse(body);
           const id = Date.now();
           users[id] = name;
