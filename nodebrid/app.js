@@ -48,7 +48,7 @@ app.use((err, req, res, next) => {
 	res.render("error");
 });
 
-console.log("db 공부중")
+console.log("db 공부중222")
 app.listen(app.get("port"), () => {
 	console.log(app.get("port"), "번 포트에서 대기 중");
 });
