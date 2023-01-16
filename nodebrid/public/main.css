@@ -37,7 +37,7 @@ input[type='text'], input[type='email'], input[type='password'], textarea {
 }
 @media screen and (min-width: 800px) {
   .profile-wrap { width: 290px; margin-bottom: 0; }
-}
+
 .profile {
   text-align: left;
   padding: 10px;
